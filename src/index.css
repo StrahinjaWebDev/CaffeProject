@@ -40,6 +40,18 @@
   color: white;
 }
 
+.Instagram {
+  background: no-repeat;
+  background-size: cover;
+  width: 20%;
+  height: 20%;
+
+  
+  
+ 
+}
+
+
 .list {
   float: left;
   width: 45%;
@@ -80,25 +92,132 @@
 
 
 .TextSection {
+  float: left;
   height: 100%;
-  width: 40%;
+  width: 50%;
 }
 
 .TextSectionMain {
   width: 100%;
-  height: 40%;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.TextSectionMain h1 {
+
+
+.TextSectionFirst {
+  float: top;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5%;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.TextSectionFirst h1,p {
   color: white;
-  text-align: center;
+  width: 55%;
+}
+
+.TextSectionFirst h1 {
+  font-size: 55px;
+}
+
+.TextSectionFirst p {
+  font-size: 20px;
+}
+
+.TextSectionFirst button {
+  margin-right: 40%;
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+
+.PizzaMain {
+  float: right;
+  height: 100%;
+  width: 50%;
+}
+
+.Pizza {
+  width: 100%;
+  height: 100%;
+}
+.PizzaPng {
+  width: 100%;
+  height: 75%;
+}
+
+
+.PizzaPng img {
+  background: url('/img/pizza.png') center no-repeat ;
+  width: 100%;
+  height: 100%;
+}
+
+.SecondPage {
+  background-color: white;
+  height: 85vh;
+  width: 100%;
+
+}
+
+.FirstHalf {
+  float: left;
+  width: 60%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.FirstHalf h1 {
+  color: blue;
+  font-size: 60px;
+}
+
+.FirstHalf p {
+  font-size: 20px;
+  color: black;
+}
+input[type="checkbox"] {
+  width: 30px;
+  height: 30px;
+  background-color: navajowhite;
+ 
+}
+
+
+.SecondHalf {
+  float: right;
+  width: 40%;
+  height: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
   
 }
 
-.TextSectionSecond {
-
-
+.SecondHalf img {
+  width: 250px;
+  height: 550px;
+  border: 5px solid black;
 }
+
+
+
+
 
