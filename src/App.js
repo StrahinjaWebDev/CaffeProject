@@ -1,45 +1,25 @@
-import React from 'react';
-import  Navbar from './Navbar';
-import TextSection from './TextSection';
-import Pizza from './PizzaMain';
-import FirstHalf from './SecondPage/FirstHalf';
-import SecondHalf from './SecondPage/SecondHalf';
-
+import React from "react";
+import Navbar from "./FirstPage/Navbar";
+import TextSection from "./FirstPage/TextSection";
+import Pizza from "./FirstPage/PizzaMain";
+import FirstHalf from "./SecondPage/FirstHalf";
+import SecondHalf from "./SecondPage/SecondHalf";
+import MenuCategories from "./ThirdPage/MenuCategories"
+import Slider from "./ThirdPage/Slider";
 
 function App() {
   return (
     <div className="App">
-      <div className="Main-bg">
-    <div className="Navbar">
-       <React.Fragment>
-        <Navbar/>
-       </React.Fragment>
-       </div>
-       <div className="TextSection">
-       <React.Fragment>
-        <TextSection/>
-       </React.Fragment>
-       </div> 
-       <div className="PizzaMain">
-       <React.Fragment>
-        <Pizza/>
-       </React.Fragment>
-       </div> 
-       
+          <Navbar />
+          <TextSection />
+          <Pizza />
+        <FirstHalf />
+        <SecondHalf />
+        <MenuCategories />
+        <Slider />
       </div>
-      <div className='SecondPage'>
-      <React.Fragment>
-        <FirstHalf/>
-       </React.Fragment>
-       
-       <React.Fragment>
-        <SecondHalf/>
-       </React.Fragment>
-       
-
-      </div>
-    </div>
-
+      
+    
   );
 }
 

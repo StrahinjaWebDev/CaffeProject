@@ -1,12 +1,14 @@
-export default Pizza
+import PizzaPic from "../img/pizza.png"
 
 
 function Pizza()  {
   return (
     <div className="Pizza">
-      <img src="" alt=""></img>
+      <img src={PizzaPic} alt="" />
     </div>
   )
 
 }
+
+export default Pizza
 

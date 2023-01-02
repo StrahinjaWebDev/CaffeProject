@@ -1,10 +1,11 @@
-import React from "react";
+import GirlEatingPizza from "../img/girl-eating-pizza.jpg" 
+import Coffe from "../img/coffe.jpg"
 
 function SecondHalf() {
   return (
     <div className="SecondHalf">
-      <img src="/img/girl-eating-pizza.jpg" alt="GirlEatingPizza" />
-      <img src="/img/girl-eating-pizza.jpg" alt="Coffe" />
+      <img src={GirlEatingPizza} alt="" />
+      <img src={Coffe} alt="" />
     </div>
   );
 }
