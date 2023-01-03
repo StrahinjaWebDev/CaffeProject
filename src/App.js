@@ -6,6 +6,7 @@ import FirstHalf from "./SecondPage/FirstHalf";
 import SecondHalf from "./SecondPage/SecondHalf";
 import MenuCategories from "./ThirdPage/MenuCategories"
 import Slider from "./ThirdPage/Slider";
+import OrderNow from "./ForurthPage/OrderNow";
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
         <FirstHalf />
         <SecondHalf />
         <MenuCategories />
-        <Slider />
+        <Slider /> 
+        <OrderNow />
       </div>
       
     

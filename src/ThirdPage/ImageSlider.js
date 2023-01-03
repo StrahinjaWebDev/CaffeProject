@@ -1,34 +1,23 @@
-import Slider from 'react-slick';
-
-const ImageSlider = (props) => {
-  const { images } = props;
-
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-  };
-
-  return (
-    <Slider {...settings}>
-      {images.map((image) => (
-        <div key={image.id}>
-          <img src={image.src} alt={image.alt} />
-          <p>{image.text}</p>
-        </div>
-      ))}
-    </Slider>
-  );
-};
+import SimpleImageSlider from "react-simple-image-slider";
 
 const images = [
-  { id: 1, src: '/path/to/image1.jpg', alt: 'Image 1', text: 'Image 1 text' },
-  { id: 2, src: '/path/to/image2.jpg', alt: 'Image 2', text: 'Image 2 text' },
-  { id: 3, src: '/path/to/image3.jpg', alt: 'Image 3', text: 'Image 3 text' },
+  { url: "../img/burger.jpg" },
+  { url: "../img/fries.jpg" },
 ];
 
-<ImageSlider images={images} />
+const ImageSlider = () => {
 
-export default ImageSlider;
+  return (
+    <div>
+      <SimpleImageSlider
+        width={950}
+        height={510}
+        images={images}
+        showBullets={true}
+        showNavs={true}
+      />
+    </div>
+  );
+}
+
+export default ImageSlider
