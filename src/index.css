@@ -1,11 +1,16 @@
-*{
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:ital,wght@0,300;0,400;1,100&family=Roboto&display=swap");
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Poppins", sans-serif;
+}
+
 .App {
-  background-color: #A8ABAE ;
+  background-color: #a8abae;
   height: 105vh;
 }
 .Navbar {
@@ -13,16 +18,13 @@
   height: 15%;
 }
 
-
-
-.logo{
+.logo {
   float: left;
   width: 25%;
   height: 80%;
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
 .logo a {
   text-decoration: none;
@@ -30,14 +32,11 @@
   color: white;
 }
 
-.list a{
+.list a {
   outline: none;
   text-decoration: none;
   color: white;
 }
-
-
-
 
 .list {
   float: left;
@@ -46,12 +45,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  
-  
 }
 
 .images {
-  
   float: right;
   width: 30%;
   height: 82%;
@@ -62,24 +58,16 @@
   color: white;
 }
 
-.Navbar ul  {
+.Navbar ul {
   display: flex;
-  justify-content:center;
+  justify-content: center;
   list-style: none;
   text-decoration: none;
   width: 100%;
   height: 35%;
   font-size: 20px;
   gap: 7%;
-  
-
 }
-
-
-
-
-
-
 
 .TextSectionMain {
   float: left;
@@ -90,7 +78,6 @@
   justify-content: center;
 }
 
-
 .TextSectionFirst {
   float: top;
   width: 100%;
@@ -100,11 +87,10 @@
   gap: 5%;
   align-items: center;
   justify-content: center;
-
-
 }
 
-.TextSectionFirst h1,p {
+.TextSectionFirst h1,
+p {
   color: white;
   width: 55%;
 }
@@ -128,26 +114,19 @@
   cursor: pointer;
 }
 
-
-
-
 .Pizza {
-  
-float: right;
+  float: right;
   width: 40%;
   height: 85%;
   display: flex;
   align-items: center;
   justify-content: center;
-
-
 }
 
 .SecondPage {
   background-color: white;
   height: 105vh;
   width: 100%;
-
 }
 
 .FirstHalf {
@@ -166,7 +145,6 @@ float: right;
   font-size: 60px;
 }
 
-
 .FirstHalf p {
   font-size: 20px;
   color: black;
@@ -175,9 +153,7 @@ input[type="checkbox"] {
   width: 30px;
   height: 30px;
   background-color: navajowhite;
- 
 }
-
 
 .SecondHalf {
   float: right;
@@ -187,7 +163,6 @@ input[type="checkbox"] {
   flex-direction: row;
   justify-content: center;
   gap: 20px;
-  
 }
 
 .SecondHalf img {
@@ -195,7 +170,6 @@ input[type="checkbox"] {
   height: 520px;
   border: 10px solid beige;
 }
-
 
 .MenuCategories {
   float: left;
@@ -211,13 +185,11 @@ input[type="checkbox"] {
 .MenuCategories p {
   color: black;
   font-size: 20px;
-
 }
 
 .MenuCategories h1 {
   font-size: 44px;
   color: blue;
-
 }
 
 .MenuCategories button {
@@ -229,10 +201,9 @@ input[type="checkbox"] {
   padding: 10px 20px;
   font-size: 18px;
   cursor: pointer;
-
 }
 
-.ImageSliderMenu  {
+.ImageSliderMenu {
   float: right;
   height: 70%;
   width: 70%;
@@ -241,7 +212,7 @@ input[type="checkbox"] {
   align-items: center;
 }
 
-.OrderNow{
+.OrderNow {
   float: right;
   width: 100%;
   height: 40%;
@@ -257,13 +228,11 @@ input[type="checkbox"] {
   width: 60%;
   height: 60%;
   background-color: rgba(0, 255, 255, 0.096);
-  
 }
 
 .OrderNowBlue img {
   width: 230px;
   height: 230px;
-  
 }
 
 .OrderNowBlue h1 {
@@ -275,8 +244,6 @@ input[type="checkbox"] {
   width: 68%;
   height: 10%;
   color: black;
-  
-
 }
 
 .Beef {
@@ -284,12 +251,251 @@ input[type="checkbox"] {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.Beef h1 {
+  
+  height: 20%;
+  width: 100%;
+}
+
+.Beef p {
+  color: black;
+  width: 67%;
+  margin-left: 80px;
+  
+}
+
+.Beef button {
+  height: 16%;
+  width: 20%;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 12px;
+  cursor: pointer;
+  margin-left: 18%;
+  margin-top: 2%;
+}
+
+.OurMenu {
+  float: right;
+  width: 100%;
+  height: 100%;
+}
+.OurMenu h1 {
+  float: left;
+  width: 33%;
+  color: blue;
+  font-size: 40px;
+  
+
+
+}
+
+.OurMenu nav {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.OurMenu ul {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+  margin-top: 18px;
+}
+
+.OurMenu a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.OurMenuPic {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  gap: 170px;
+
+}
+
+.OurMenuPic img {
+  width: 300px;
+  height: 100%;
+
+}
+.OurMenuDescription {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 165px;
   
 }
 
 
-.Beef p {
-  color: black;
+.OurMenuDescription p {
+  color: #a8abae;
+  width: 100%;
+}
+.OurMenuDescription span {
+  font-weight: 600;
+  width: 16%;
+}
+
+.OurMenuDescription a {
+  color: rgba(0, 0, 255, 0.589);
+}
+
+.Promo {
+  float: right;
+  width: 100%;
+  height: 100%;
+
+}
+
+.PromoPic {
+  height: 70%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.PromoPic img {
+  width: 78%;
+  height: 70%;
+}
+
+.PromoTextFirst {
+  width: 50%;
+  height: 30%;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.PromoTextSecond {
+  width: 50%;
+  height: 30%;
+  float: right;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.PromoTextFirst p {
+  color: #a8abae;
+  font-weight: 600;
+}
+
+.PromoTextSecond p {
+  color: #a8abae;
+  font-weight: 600;
 }
 
 
+.PromoTextFirst button {
+  margin-right: 40%;
+  color: blue;
+  border-color: blue;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 19px;
+  cursor: pointer;
+}
+
+.PromoTextSecond button {
+    margin-right: 40%;
+    color: blue;
+    border-color: blue;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 19px;
+    cursor: pointer;
+}
+
+
+.SmartMealsNews {
+  float: right;
+  height: 100%;
+  width: 100%;
+
+}
+
+.NewsHeader {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.SmartMealsNews p {
+  color: #a8abae;
+  float: right;
+  width: 50%;
+  font-weight: 600;
+}
+
+.SmartMealsNews h1 {
+  float: left;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(0, 0, 255, 0.733);
+ 
+}
+
+.NewsPhotos {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+.NewsPhotos img {
+  width: 500px;
+  height: 500px;
+
+}
+
+.NewsDescription {
+  width: 100%;
+  height: 25%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.NewsDescription span {
+  color: black;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 30%;
+}
+
+.NewsDescription a {
+  
+    color: forestgreen;
+    text-decoration: none;
+  
+}

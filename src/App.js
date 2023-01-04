@@ -7,6 +7,9 @@ import SecondHalf from "./SecondPage/SecondHalf";
 import MenuCategories from "./ThirdPage/MenuCategories"
 import Slider from "./ThirdPage/Slider";
 import OrderNow from "./ForurthPage/OrderNow";
+import OurMenu from "./FifthPage/OurMenu";
+import SeePromo from "./SixthPage/SeePromo"
+import SmartMealsNews from "./SeventhPage/SmartMealsNews"
 
 function App() {
   return (
@@ -19,6 +22,9 @@ function App() {
         <MenuCategories />
         <Slider /> 
         <OrderNow />
+        <OurMenu />
+        <SeePromo />
+        < SmartMealsNews />
       </div>
       
     
